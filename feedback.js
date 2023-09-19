@@ -60,16 +60,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
  
     function isFormValid() {
-      if(isFormValid()){
-        submitButton.removeAttribute("disabled");
-      }
-      else{
-        submitButton.setAttribute("disabled","disabled");
-      }
-    }
-  });
+        return NameInput.validity.valid && emailInput.validity.valid && commentInput.validity.valid;
+  }
   
+  function updateSubmitButtonState(){
+    if(isFormValid()){
+        submitButton.removeAttribute("disabled");
+    }
+    else{
+        submitButton.setAttribute("disabled","disabled");
+    }
+  }
+});
+
   function success() {
     alert('Success');
   }
-  
+
