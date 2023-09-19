@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jokes>
+    <category name="Programming">
+        <joke>Why don't scientists trust atoms? Because they make up everything!</joke>
+    </category>
+    <category name="Animal Crossing">
+        <joke>Parallel lines have so much in common. It's a shame they'll never meet.</joke>
+    </category>
+    <category name="Religion">
+        <joke>I used to play piano by ear, but now I use my hands.</joke>
+    </category>
+    <category name="Political">
+        <joke>Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.</joke>
+    </category>
+    <category name="Food">
+        <joke>What do you call a fish with no eyes? Fsh.</joke>
+    </category>
+    <category name="Geography">
+        <joke>I'm on a seafood diet. I see food, and I eat it.</joke>
+    </category>
+    <category name="Celebrity">
+        <joke>Why did the scarecrow win an award? Because he was outstanding in his field!</joke>
+    </category>
+    <category name="Spooky">
+        <joke>What's orange and sounds like a parrot? A carrot.</joke>
+    </category>
+    <category name="Miscellaneous">
+        <joke>How do you organize a space party? You "planet"!</joke>
+    </category>
+    <category name="Miscellaneous">
+        <joke>Why did the bicycle fall over? Because it was two-tired.</joke>
+    </category>
+    <category name="Miscellaneous">
+        <joke>I'm reading a book on anti-gravity. It's impossible to put down!</joke>
+    </category>
+    <category name="Miscellaneous">
+        <joke>Want to hear a construction joke? Sorry, I'm still building it.</joke>
+    </category>
+    <category name="Math Movies">
+        <joke>How does a penguin build its house? Igloos it together!</joke>
+    </category>
+    <category name="Sports Movies">
+        <joke>I'm reading a book on anti-gravity. It's impossible to put down!</joke>
+    </category>
+    <category name="History Movies">
+        <joke>What did the grape say when it got stepped on? Nothing, it just let out a little whine.</joke>
+    </category>
+    <category name="Music Movies">
+        <joke>Want to hear a construction joke? Sorry, I'm still building it.</joke>
+    </category>
+    <category name="Pokemon">
+        <joke>What do you call a snowman with a six-pack? An abdominal snowman.</joke>
+    </category>
+    <category name="Animal Movies">
+        <joke>Parallel lines have so much in common. It's a shame they'll never meet.</joke>
+    </category>
+    <category name="Christmas Movies">
+        <joke>I used to play piano by ear, but now I use my hands.</joke>
+    </category>
+    <category name="Science Movies">
+        <joke>Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.</joke>
+    </category>
+    <category name="Science">
+        <joke>What do you call a fish with no eyes? Fsh.</joke>
+    </category>
+    <category name="New Year">
+        <joke>I'm on a seafood diet. I see food, and I eat it.</joke>
+    </category>
+    <category name="Halloween">
+        <joke>Why did the scarecrow win an award? Because he was outstanding in his field!</joke>
+    </category>
+    <category name="Valentine's Day">
+        <joke>What's orange and sounds like a parrot? A carrot.</joke>
+    </category>
+    <category name="Miscellaneous">
+        <joke>How do you organize a space party? You "planet"!</joke>
+    </category>
+    <category name="Math">
+        <joke>Why did the bicycle fall over? Because it was two-tired.</joke>
+    </category>
+    <category name="Miscellaneous">
+        <joke>I'm reading a book on anti-gravity. It's impossible to put down!</joke>
+    </category>
+    <category name="Christmas">
+        <joke>What did the grape say when it got stepped on? Nothing, it just let out a little whine.</joke>
+    </category>
+    <category name="Miscellaneous">
+        <joke>Want to hear a construction joke? Sorry, I'm still building it.</joke>
+    </category>
+    <category name="Dark">
+        <joke>What do you call a snowman with a six-pack? An abdominal snowman.</joke>
+    </category>
+    <category name="Miscellaneous">
+        <joke>Why don't scientists trust atoms? Because they make up everything!</joke>
+    </category>
+</jokes>

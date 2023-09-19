@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+        .jsonItemContainer {
+            text-align: center;
+            background-color: #f7f7f7;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 20px auto;
+        }
+        .jsonItem {
+            margin-bottom: 10px;
+        }
+        .bold-text {
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Viewer</h1>
+    
+    <script>
+        const jsonFilePath = './jokes-list.json';
+
+        fetch(jsonFilePath)
+            .then(response => response.json())
+            .then(jsonData => {
+                const jsonList = document.body; 
+                jsonData.forEach(item => {
+                    const container = document.createElement("div");
+                    container.classList.add("jsonItemContainer");
+
+                    const categoryElement = document.createElement("p");
+                    categoryElement.innerHTML = `<span class="bold-text">Category:</span> ${item.category}`;
+                    container.appendChild(categoryElement);
+
+                    const jokeElement = document.createElement("p");
+                    jokeElement.innerHTML = `<span class="bold-text">Joke:</span> ${item.joke}`;
+                    container.appendChild(jokeElement);
+
+                    jsonList.appendChild(container);
+                });
+            })
+            .catch(error => {
+                console.error("Error loading JSON:", error);
+                alert("Error loading JSON. Please check the file path.");
+            });
+    </script>
+</body>
+</html>

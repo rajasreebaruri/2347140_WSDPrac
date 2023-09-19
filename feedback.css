@@ -1,0 +1,18 @@
+body{
+    margin:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-weight: bold;
+    font-size: 12px;
+}
+#submit-button{
+    background-color: rgb(76, 76, 230);
+    color: white;
+    border-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}

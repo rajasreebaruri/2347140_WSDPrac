@@ -1,0 +1,11 @@
+#fetchButton{
+    padding: 10px 20px; 
+    background-color: #d6d6d6; 
+    color: black; 
+    border: none; 
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
